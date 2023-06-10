@@ -26,5 +26,10 @@ pipeline {
                 echo 'hello world'
             }
         }
+        stage('new') {
+            steps {
+                echo 'test trigger'
+            }
+        }
     }
 }
